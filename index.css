@@ -90,6 +90,7 @@ header {
 	font-size: 2em;
 	background-color: #3781A2;
 	width: 100%;
+	margin-left: auto;
 }
 
 #email {
