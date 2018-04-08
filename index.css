@@ -20,12 +20,12 @@ header {
 	display: flex;
 	align-items: center;
 	padding-right: 2%;
-	height:50px;
+	height:100px;
 	top:0;
 	right: 0;
 	position: fixed; 
 	text-align: right;
-	background-color: #1D1843;
+	
 
 
 }
@@ -43,7 +43,7 @@ header {
 }
 
 .details {
-	margin: 2% 25% 2% 25%;
+	margin: 2% 10% 2% 10%;
 	padding: 2% 2% 2% 2%;
 	min-width: 250px;
 	background-color: #1D1843;
@@ -70,13 +70,17 @@ header {
 }
 
 .nav-link {
+	display: flex;
 	background-color: #3C8Caf;
 	border-color: #337490;
 	border-width: 2px;
 	border-style: solid;
-	
+	height: 50px;
+	align-items: center;
+	justify-content: center;
 	font-weight: bold;
 	padding: 2px 5px 2px 5px;
+
 }
 
 .form-div {
@@ -89,7 +93,7 @@ header {
 }
 
 #email {
-	width:200px;
+	width:40%;
 }
 
 
@@ -97,7 +101,7 @@ header {
 #video-div {
 	width: 100%;
 	max-width: 1280px;
-
+	padding-bottom: 20px;
 	
 
 }
@@ -109,7 +113,7 @@ header {
     height: 0;
     width: 100%;
     overflow: hidden;
-    background: gray;
+    background: #34314A;
 }
 
 iframe {
@@ -136,7 +140,7 @@ footer {
 	display: flex;
 	flex-direction: row;
 	color: white;
-	margin-left: auto;
+	
 	justify-content: flex-end;
 }
 
