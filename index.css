@@ -9,7 +9,7 @@ body {
 }
 
 header {
-	padding: 2% 20% 2% 20%;
+	
 	background-color: #28244A;
 	display: flex;
 	justify-content: center;
@@ -135,7 +135,6 @@ iframe {
 footer {
 	display: flex;
 	flex-direction: row;
-	
 	width: 100%;
 	padding-top: 10vh;
 	background-color: #28244A;
