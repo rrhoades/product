@@ -57,6 +57,7 @@ header {
 	flex-direction: row;
 	background-color: #9C7A00;
 	padding: 2% 2% 2% 2%;
+	flex:1;
 
 }
 
@@ -131,11 +132,10 @@ iframe {
 }
 
 footer {
-	align-items: center;
 	width: 100%;
 	padding-top: 10vh;
 	background-color: #28244A;
-	flex:1;
+
 
 }
 
@@ -143,11 +143,8 @@ footer {
 	display: flex;
 	flex-direction: row;
 	color: white;
-	
 	justify-content: flex-end;
 }
 
-body {
-	background-color: #181511;
-}
+
 
