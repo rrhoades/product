@@ -1,10 +1,33 @@
+body {
+	background-color: #181511;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+header {
+	padding: 2% 20% 2% 20%;
+	background-color: #28244A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
 #nav-bar {
-	top:2;
-	position: fixed;
-	align-self: flex-end;
-	padding-right: 10px;
+	
+	display: flex;
+	align-items: center;
+	padding-right: 2%;
+	height:50px;
+	top:0;
+	right: 0;
+	position: fixed; 
+	text-align: right;
 	background-color: #1D1843;
-	padding: 1% 2% 1% 2%;
+
+
 }
 
 @media only screen and (max-width: 768) {
@@ -62,42 +85,59 @@
 	padding-top: 2%;
 	font-size: 2em;
 	background-color: #3781A2;
+	width: 100%;
 }
 
 #email {
 	width:200px;
 }
 
-header {
-	display:flex;
-	flex-direction: column;
-	align-items: center;
-	background-color: #28244A;
-}
+
 
 #video-div {
-	display: flex;
-	flex-direction: column;
-	padding: 2% 20% 2% 20%;
-	align-items: center;
+	width: 100%;
+	max-width: 1280px;
 
+	
+
+}
+
+.video {
+	position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; 
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    background: gray;
 }
 
 iframe {
 	border-color: #34314A;
 	border-style: solid;
 	border-width: 10px;
+	position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+	
 }
 
 footer {
-	padding: 2% 0 2% 0;
-	text-align: right;
+	align-items: center;
+	width: 100%;
+	padding-top: 10vh;
 	background-color: #28244A;
 
 }
 
 .footerLabel {
-	padding-right: 5%;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	margin-left: auto;
+	justify-content: flex-end;
 }
 
 body {
