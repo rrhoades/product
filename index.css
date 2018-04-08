@@ -19,13 +19,11 @@ header {
 }
 
 #nav-bar {
-	
 	display: flex;
 	align-items: center;
-	padding-right: 2%;
 	height:100px;
 	top:0;
-	right: 0;
+	align-self: flex-end;
 	position: fixed; 
 	text-align: right;
 	
