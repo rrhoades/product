@@ -105,7 +105,7 @@ header {
 
 #video-div {
 	width: 100%;
-	max-width: 1280px;
+	max-width: 1300px;
 	padding-bottom: 20px;
 	
 
@@ -116,15 +116,16 @@ header {
     padding-bottom: 56.25%;
     padding-top: 30px; 
     height: 0;
-    width: 100%;
+    width: 95%;
     overflow: hidden;
     background: #34314A;
+    border-color: #34314A;
+	border-style: solid;
+	border-width: 10px;
 }
 
 iframe {
-	border-color: #34314A;
-	border-style: solid;
-	border-width: 10px;
+	
 	position: absolute;
       top: 0;
       left: 0;
